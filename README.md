@@ -19,6 +19,7 @@ __Files including:__
 
 ### Queries
 Our first deliverable, we made two queries to output a csv file created using the **current_emp.csv** we obtained during the module and the **titles_csv** provided from Bobby's manager, called **unique_titles.csv**. The unique_titles.csv contains information including our current employees' numbers, their first and last name, their __most recent__ title, and employment dates. Then we summed up the number of employees by their titles and output the table in the **retiring_titles.csv**(below).
+
 ![](Data/retiring_count.png)
 
 In the second deliverable, we made a query to find eligible employees for the mentorship program by joining the **dept_emp.csv** and **titles.csv** with the **employees.csv** to generate the following (sneakpeak) **mentorship.csv** table:
