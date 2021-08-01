@@ -3,7 +3,7 @@
 SELECT ce.emp_no, ce.first_name, ce.last_name,
 	   ti.title, ti.from_date, ti.to_date
 INTO ret_titles
-FROM current_emp as ce  -- current_emp is filtered employees table who are born between the dates in the Module
+FROM current_emp as ce  -- current_emp is filtered employees table who are born between the dates of January 1, 1952 and December 31, 1955 from the Module
 	INNER JOIN titles as ti
 		ON (ce.emp_no = ti.emp_no)
 ORDER BY ce.emp_no;
